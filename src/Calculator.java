@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class Calculator {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -16,7 +15,6 @@ public class Calculator {
                 Number2 = sc.nextInt();
                 System.out.println("");
                 System.out.println(Number1 + " + " + Number2 + " = " + (Number1 + Number2));
-
                 break;
             case '*':
                 System.out.print("Enter the Value Of Number1:");
@@ -26,7 +24,6 @@ public class Calculator {
                 Number2 = sc.nextInt();
                 System.out.println("");
                 System.out.println(Number1 + " * " + Number2 + " = " + (Number1 * Number2));
-
                 break;
             case '-':
                 System.out.print("Enter the Value Of Number1:");
@@ -36,7 +33,6 @@ public class Calculator {
                 Number2 = sc.nextInt();
                 System.out.println("");
                 System.out.println(Number1 + " - " + Number2 + " = " + (Number1 - Number2));
-
                 break;
             case '/':
                 System.out.print("Enter the Value Of Number1:");
@@ -46,9 +42,7 @@ public class Calculator {
                 Number2 = sc.nextInt();
                 System.out.println("");
                 System.out.println(Number1 + " / " + Number2 + " = " + (Number1 / Number2));
-
                 break;
-
             default:System.out.println("Wrong Input !!!!");
                 break;
         }
